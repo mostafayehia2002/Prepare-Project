@@ -1,0 +1,29 @@
+{
+    "name": "teefa/prepare",
+    "description": "Preparing the most important things used for any project",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Teefa\\Prepare\\": "src/"
+
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=8.2"
+    },"authors": [
+    {
+        "name": "mostafa yehia",
+        "email": "gad993813@gmail.com"
+    }
+],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Teefa\\Prepare\\Providers\\PrepareServiceProvider",
+                "Teefa\\Prepare\\Providers\\MiddlewareServiceProvider"
+            ]
+        }
+    }
+}
